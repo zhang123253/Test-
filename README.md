@@ -37,7 +37,7 @@
         }
     }
 Foods类为Goods的子类即为商品的分类，继承了Goods的方法和字段同时添加了自己独有的功能（字段和方法）
-    package com.colin.mode;
+    <br>
 
     import java.util.Scanner;
 
@@ -65,4 +65,5 @@ Foods类为Goods的子类即为商品的分类，继承了Goods的方法和字�
             return super.array(i)+"\t生产日期："+this.productDate+"\t 保质期："+this.effTime;
         }
     }
+Daily类和Electrial同Foods类；<br>
 
